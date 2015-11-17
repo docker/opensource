@@ -22,6 +22,7 @@ You use the `docker` repository and its `Dockerfile` to create a Docker image,
 run a Docker container, and develop code in the container. Docker itself builds,
 tests, and releases new Docker versions using this container.
 
+
 If you followed the procedures that <a href="/opensource/project/set-up-git/" target="_blank">
 set up Git for contributing</a>, you should have a fork of the `docker/docker`
 repository. You also created a branch called `dry-run-test`. In this section,
