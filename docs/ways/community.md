@@ -19,8 +19,8 @@ contribute mentoring if you have good knowledge of:
 * using Docker in some particular domain (for example, testing or deployment)
 * using Git, Go, GitHub, IRC, or other common tools
 
-Also, choose mentoring if you like to be happy. Studies show that <a
-href="http://goo.gl/HSz8UT" target="_blank">helping others</a> is a great way to
+Also, choose mentoring if you like to be happy. Studies show that 
+[helping others](https://goo.gl/HSz8UT)is a great way to
 boost your own well being.
 
 
@@ -28,14 +28,12 @@ boost your own well being.
 
 Docker users are people using Docker in their daily work. To help Docker users, visit:
 
-* the <a href="https://groups.google.com/forum/#!forum/docker-user"
-target="_blank">Docker-user</a> Google group
+* the [Docker-user](https://groups.google.com/forum/#!forum/docker-user) Google group
 * the `#docker` channel on Freenode IRC
-*  <a href="http://stackoverflow.com/search?tab=newest&q=docker"
-target="_blank">StackOverflow</a>
+* [StackOverflow](https://stackoverflow.com/search?tab=newest&q=docker)
 
-You can also check the <a href="http://goo.gl/Kv8EdU" target="_blank">list of
-open user questions</a> on the Docker project.
+You can also check the [list of open user questions](https://goo.gl/Kv8EdU) 
+on the Docker project.
 
 
 ## Docker contributors
@@ -44,10 +42,9 @@ Docker contributors are people like you contributing to Docker open source.
 Contributors may need help with IRC, Go programming, Markdown, or with other
 aspects of contributing. To help Docker contributors:
 
-* the <a href="https://gitter.im/docker/docker" target="_blank">Docker Gitter IM
-</a> room
-* the <a href="https://groups.google.com/forum/#!forum/docker-dev"
-target="_blank">docker-dev</a>  Google group
-* the <a href="https://dev.dockerproject.com"
-target="_blank">dev.dockerproject.com</a> on Discourse
+* the [Docker Gitter IM](https://gitter.im/docker/docker) 
+room
+* the [docker-dev](https://groups.google.com/forum/#!forum/docker-dev) 
+Google group
+* the [dev.dockerproject.com](https://dev.dockerproject.com) on Discourse
 * the `#docker-dev` channel on Freenode IRC

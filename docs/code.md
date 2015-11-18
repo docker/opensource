@@ -12,7 +12,7 @@ weight=-3
 # Quickstart code or doc contribution
 
 If you'd like to improve the code of any of Docker's projects, we would love to
-have your contributions. All of our projects' code <a href="https://github.com/docker" target="_blank">repositories are on GitHub</a>.
+have your contributions. All of our projects' code [repositories are on GitHub](https://github.com/docker).
 
 If you want to contribute to the `docker/docker` repository you should be
 familiar with or a invested in learning Go or the Markdown language.  If you
@@ -26,48 +26,40 @@ If you are an experienced open source contributor you may be familiar with this
 workflow. If you are new or just need reminders, the steps below link to more
 detailed documentation in Docker's project contributors guide.
 
-1. <a href="http://docs.docker.com/project/software-required/"
-target="_blank">Get the software</a> you need.
+1. [Get the software](project/software-required.md) you need.
 
 	This explains how to install a couple of tools used in our development
 	environment.  What you need (or don't need) might surprise you.
 
-2. <a href="http://docs.docker.com/project/set-up-git/"
-target="_blank">Configure Git and fork the repo</a>.
+2. [Configure Git and fork the repo](project/set-up-git.md).
 
 	Your Git configuration can make it easier for you to contribute.
 	Configuration is especially key if are new to contributing or to Docker.
 
-3. <a href="http://docs.docker.com/project/set-up-dev-env/"
-target="_blank">Learn to work with the Docker development container</a>.
+3. [Learn to work with the Docker development container](project/set-up-dev-env.md).
 
 	Docker developers run `docker` in `docker`.  If you are a geek,
 	this is a pretty cool experience.
-4. <a href="http://docs.docker.com/project/find-an-issue/"
-target="_blank">Claim an issue</a> to work on.
 
-	We created a filter listing <a href="http://goo.gl/Hsp2mk" target="_blank">all open
-	and unclaimed issues</a> for Docker.
+4. [Claim an issue](workflow/find-an-issue.md) to work on.
 
-5. <a
-href="http://docs.docker.com/project/work-issue/" target="_blank">Work on the
-issue</a>.
+	We created a filter listing 
+	[all open and unclaimed issues](https://goo.gl/Hsp2mk) for Docker.
+
+5. [Work on the issue](workflow/work-issue.md).
 
 	If you change or add code or docs to a project, you should test your changes
-	as you work. This page explains <a
-	href="http://docs.docker.com/project/test-and-docs/" target="_blank">how to
-	test in our development environment</a>.  
+	as you work. This page explains 
+	[how to	test in our development environment](project/test-and-docs.md).  
 
 	Also, remember to always **sign your commits** as you work! To sign your
 	commits, include the `-s` flag in your commit like this:
 
 		$ git commit -s -m "Add commit with signature example"
 
-	If you don't sign <a href="https://twitter.com/gordontheturtle"
-	target="_blank">Gordon</a> will get you!
+	If you don't sign [Gordon](https://twitter.com/gordontheturtle) will get you!
 
-6. <a href="http://docs.docker.com/project/create-pr/" target="_blank">Create a
-pull request</a>.
+6. [Create a pull request](workflow/create-pr.md).
 
 	If you make a change to fix an issue, add reference to the issue in the pull
 	request. Here is an example of a perfect pull request with a good description,
@@ -79,6 +71,5 @@ pull request</a>.
 	needs](#what-is-the-pre-pull-request-checklist).
 
 
-7. <a href="http://docs.docker.com/project/review-pr/"
-target="_blank">Participate in the pull request review</a> till a successful
-merge.
+7. [Participate in the pull request review](workflow/review-pr.md) 
+till a successful merge.

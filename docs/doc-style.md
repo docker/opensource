@@ -15,9 +15,9 @@ weight=4
 
 Over time, different publishing communities have written standards for the style
 and grammar they prefer in their publications. These standards are called
-[style guides](http://en.wikipedia.org/wiki/Style_guide). Generally, Docker’s
+[style guides](https://en.wikipedia.org/wiki/Style_guide). Generally, Docker’s
 documentation uses the standards described in the
-[Associated Press's (AP) style guide](http://en.wikipedia.org/wiki/AP_Stylebook).
+[Associated Press's (AP) style guide](https://en.wikipedia.org/wiki/AP_Stylebook).
 If a question about syntactical, grammatical, or lexical practice comes up,
 refer to the AP guide first. If you don’t have a copy of (or online subscription
 to) the AP guide, you can almost always find an answer to a specific question by
@@ -63,7 +63,7 @@ technical writing."
 
 One exception to the "don’t write directly for ESL" rule is to avoid the use of
 metaphor or other
-[figurative language](http://en.wikipedia.org/wiki/Literal_and_figurative_language) to
+[figurative language](https://en.wikipedia.org/wiki/Literal_and_figurative_language) to
 describe things. There are too many cultural and social issues that can prevent
 a reader from correctly interpreting a metaphor.
 
@@ -196,7 +196,7 @@ verb (two words), as in "Log in to the terminal".
 ### Oxford comma
 
 One way in which we differ from AP style is that Docker’s docs use the [Oxford
-comma](http://en.wikipedia.org/wiki/Serial_comma) in all cases. That’s our
+comma](https://en.wikipedia.org/wiki/Serial_comma) in all cases. That’s our
 position on this controversial topic, we won't change our mind, and that’s that!
 
 ### Code and UI text styling
@@ -249,7 +249,7 @@ potential problems in communication or presentation.
 ### Commit messages
 
 In order to write clear, useful commit messages, please follow these
-[recommendations](http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message).
+[recommendations](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message).
 
 ## Links
 

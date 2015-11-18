@@ -94,8 +94,7 @@ master">exp/master</strong> level issue.
 
 To claim an issue:
 
-1. Go to the `docker/docker` <a
-	href="https://github.com/docker/docker" target="_blank">repository</a>.
+1. Go to the `docker/docker` [repository](https://github.com/docker/docker).
 
 2. Click the "Issues" link.
 

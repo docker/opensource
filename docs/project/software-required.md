@@ -25,8 +25,7 @@ provides it for you. You'll learn more about the development environment later.
 
 ### Get a GitHub account
 
-To contribute to the Docker project, you will need a <a
-href="https://github.com" target="_blank">GitHub account</a>. A free account is
+To contribute to the Docker project, you will need a [GitHub account](https://github.com). A free account is
 fine. All the Docker project repositories are public and visible to everyone.
 
 You should also have some experience using both the GitHub application and `git`
@@ -56,7 +55,7 @@ depending on your OS.
 ### Install or upgrade Docker
 
 If you haven't already, install the Docker software using the
-<a href="/engine/installation" target="_blank">instructions for your operating system</a>.
+[instructions for your operating system](https://docs.docker.com/engine/installation/).
 If you have an existing installation, check your version and make sure you have
 the latest Docker.
 

@@ -31,10 +31,9 @@ branches.
 Docker tests use the Go language's test framework. In this framework, files
 whose names end in `_test.go` contain test code; you'll find test files like
 this throughout the Docker repo. Use these files for inspiration when writing
-your own tests. For information on Go's test framework, see <a
-href="http://golang.org/pkg/testing/" target="_blank">Go's testing package
-documentation</a> and the <a href="http://golang.org/cmd/go/#hdr-Test_packages"
-target="_blank">go test help</a>.
+your own tests. For information on Go's test framework, see 
+[Go's testing package documentation](https://golang.org/pkg/testing/) 
+and the [go test help](https://golang.org/cmd/go/#hdr-Test_packages).
 
 You are responsible for _unit testing_ your contribution when you add new or
 change existing Docker code. A unit test is a piece of code that invokes a
@@ -267,14 +266,12 @@ make any changes just run these commands again.
 ## Build and test the documentation
 
 The Docker documentation source files are under `docs`. The content is
-written using extended Markdown. We use the static generator <a
-href="http://www.mkdocs.org/" target="_blank">MkDocs</a> to build Docker's
-documentation. Of course, you don't need to install this generator
+written using extended Markdown. We use the static generator [MkDocs](http://www.mkdocs.org/) 
+to build Docker's documentation. Of course, you don't need to install this generator
 to build the documentation, it is included with container.
 
 You should always check your documentation for grammar and spelling. The best
-way to do this is with <a href="http://www.hemingwayapp.com/"
-target="_blank">an online grammar checker</a>.
+way to do this is with [an online grammar checker](http://www.hemingwayapp.com/).
 
 When you change a documentation source file, you should test your change
 locally to make sure your content is there and any links work correctly. You

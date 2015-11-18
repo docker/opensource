@@ -30,8 +30,7 @@ To fork and clone Docker:
 
 1. Open a browser and log into GitHub with your account.
 
-2. Go to the <a href="https://github.com/docker/docker"
-target="_blank">docker/docker repository</a>.
+2. Go to the [docker/docker repository](https://github.com/docker/docker).
 
 3. Click the "Fork" button in the upper right corner of the GitHub interface.
 
@@ -85,7 +84,7 @@ target="_blank">docker/docker repository</a>.
 ##  Set your signature and an upstream remote
 
 When you contribute to Docker, you must certify you agree with the
-<a href="http://developercertificate.org/" target="_blank">Developer Certificate of Origin</a>.
+[Developer Certificate of Origin](http://developercertificate.org/).
 You indicate your agreement by signing your `git` commits like this:
 
     Signed-off-by: Pat Smith <pat.smith@email.com>

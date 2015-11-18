@@ -70,8 +70,8 @@ revert would remove all traces of the feature or fix.
 
 ## How should I comment my code?
 
-The Go blog wrote about code comments, it is <a href="http://goo.gl/fXCRu"
-target="_blank">a single page explanation</a>. A summary follows:
+The Go blog wrote about code comments, it is
+[a single page explanation](https://goo.gl/fXCRu). A summary follows:
 
 - Comments begin with two forward `//` slashes.
 - To document a type, variable, constant, function, or even a package, write a
