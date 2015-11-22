@@ -26,9 +26,8 @@ Follow this workflow as you work:
 
 1. Review the appropriate style guide.
 
-    If you are changing code, review the <a href="../coding-style"
-    target="_blank">coding style guide</a>. Changing documentation? Review the
-    <a href="/opensource/doc-style/" target="_blank">documentation style guide</a>.
+    If you are changing code, review the [coding style guide](coding-style.md). 
+    Changing documentation? Review the [documentation style guide](/opensource/doc-style.md).
 
 2. Make changes in your feature branch.
 
@@ -38,18 +37,16 @@ Follow this workflow as you work:
     alone, you can work on your local host.
 
     Make sure you don't change files in the `vendor` directory and its
-    subdirectories; they contain third-party dependency code. Review <a
-    href="/opensource/project/set-up-dev-env/" target="_blank">if you forgot the details of
-    working with a container</a>.
+    subdirectories; they contain third-party dependency code. Review 
+    [if you forgot the details of working with a container](/opensource/project/set-up-dev-env.md).
 
 
 3. Test your changes as you work.
 
     If you have followed along with the guide, you know the `make test` target
     runs the entire test suite and `make docs` builds the documentation. If you
-    forgot the other test targets, see the documentation for <a
-    href="/opensource/project/test-and-docs/" target="_blank">testing both code and
-    documentation</a>.  
+    forgot the other test targets, see the documentation for 
+    [testing both code and documentation](/opensource/project/test-and-docs.md).  
 
 4. For code changes, add unit tests if appropriate.
 
@@ -131,7 +128,7 @@ Follow this workflow as you work:
 
 After you push a new branch, you should verify it on GitHub:
 
-1. Open your browser to <a href="https://github.com" target="_blank">GitHub</a>.
+1. Open your browser to [GitHub](https://github.com).
 
 2. Go to your Docker fork.
 
@@ -187,7 +184,7 @@ You should pull and rebase frequently as you work.
 
         $ git commit -s
 
-    Make sure your message includes <a href="/opensource/project/set-up-git/" target="_blank">your signature</a>.
+    Make sure your message includes [your signature](/opensource/project/set-up-git.md).
 
 7. Force push any changes to your fork on GitHub.
 

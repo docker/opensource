@@ -61,7 +61,7 @@ community members and developers.
     <td>Stack Overflow</td>
     <td>
       Stack Overflow has over 7000K Docker questions listed. We regularly
-      monitor <a href="http://stackoverflow.com/search?tab=newest&q=docker" target="_blank">Docker questions</a>
+      monitor <a href="https://stackoverflow.com/search?tab=newest&q=docker" target="_blank">Docker questions</a>
       and so do many other knowledgeable Docker users.
     </td>
   </tr>
@@ -80,7 +80,7 @@ platforms.
 Using Webchat from Freenode.net is a quick and easy way to get chatting. To
 register:
 
-1. In your browser open <a href="https://webchat.freenode.net" target="_blank">https://webchat.freenode.net</a>
+1. In your browser open [https://webchat.freenode.net](https://webchat.freenode.net)
 
     ![Login to webchat screen](images/irc_connect.png)
 
@@ -144,7 +144,7 @@ a Freemium product, meaning the free version is limited and you can pay for more
 features. To use IRCCloud:
 
 1. Select the following link:
-  <a href="https://www.irccloud.com/invite?channel=%23docker&amp;hostname=chat.freenode.net&amp;port=6697" target="_blank">Join the #docker channel on chat.freenode.net</a>
+  [Join the #docker channel on chat.freenode.net](https://www.irccloud.com/invite?channel=%23docker&amp;hostname=chat.freenode.net&amp;port=6697).
 
     The following web page is displayed in your browser:
 
@@ -194,9 +194,8 @@ on the command line using this command:
 
       /msg NickServ identify <password>
 
-With Webchat if you forget or lose your password see <a
-href="https://freenode.net/faq.shtml#sendpass" target="_blank">the FAQ on
-freenode.net</a> to learn how to recover it.
+With Webchat if you forget or lose your password see 
+[the FAQ on freenode.net](https://freenode.net/faq.shtml#sendpass) to learn how to recover it.
 
 ### Join a Docker Channel
 
@@ -219,6 +218,5 @@ To ask questions to the group just type messages in the command line bar:
 
 This quickstart was meant to get you up and into IRC very quickly. If you find
 IRC useful there is more to learn. Drupal, another open source project,
-has <a href="https://www.drupal.org/irc/setting-up" target="_blank">
-written some documentation about using IRC</a> for their project
-(thanks Drupal!).
+has [written some documentation about using IRC](https://www.drupal.org/irc/setting-up) 
+for their project (thanks Drupal!).

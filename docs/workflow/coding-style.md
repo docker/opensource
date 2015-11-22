@@ -52,14 +52,14 @@ program code and documentation code.
 
 * Use existing Docker test files (`name_test.go`) for inspiration.
 
-* Run <a href="../test-and-docs/" target="_blank">the full test suite</a> on your
+* Run [the full test suite](/opensource/project/test-and-docs.md) on your
   branch before submitting a pull request.
 
 * Run `make docs` to build the documentation and then check it locally.
 
-* Use an <a href="http://www.hemingwayapp.com" target="_blank">online grammar
-  checker</a> or similar to test you documentation changes for clarity,
-  concision, and correctness.
+* Use an [online grammar checker](http://www.hemingwayapp.com) 
+or similar to test you documentation changes for clarity, 
+concision, and correctness.
 
 ## Pull requests
 

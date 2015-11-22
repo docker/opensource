@@ -28,8 +28,7 @@ instructions.
 
 ### Get a GitHub account
 
-To contribute to the Docker project, you will need a <a
-href="https://github.com" target="_blank">GitHub account</a>. A free account is
+To contribute to the Docker project, you will need a [GitHub account](https://github.com). A free account is
 fine. All the Docker project repositories are public and visible to everyone.
 
 You should also have some experience using both the GitHub application and `git`

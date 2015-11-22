@@ -12,9 +12,9 @@ parent = "smn_engine_contrib"
 
 This section of the documentation contains a guide for Docker users who want to
 contribute code or documentation to the Docker Engine project. As a community, we
-share rules of behavior and interaction. Make sure you are familiar with the <a
-href="https://github.com/docker/docker/blob/master/CONTRIBUTING.md#docker-community-guidelines"
-target="_blank">community guidelines</a> before continuing.
+share rules of behavior and interaction. Make sure you are familiar with the 
+[community guidelines](https://github.com/docker/docker/blob/master/
+CONTRIBUTING.md#docker-community-guidelines) before continuing.
 
 ## Where and what you can contribute
 
