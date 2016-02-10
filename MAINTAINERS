@@ -271,7 +271,7 @@ be approved by the chief architect.
 
     [Roles."Chief Maintainer"]
 
-    person = "crosbymichael"
+    person = ""
 
     text = """
 The chief maintainer is responsible for all aspects of quality for the project including
@@ -312,7 +312,7 @@ or feedback about project operations.
     [Org.distribution]
         People = ["aaronlehmann", "dmcgowan", "dmp42", "richardscothern", "shykes", "stevvooe"]
     [Org.docker]
-        People = ["calavera", "coolljt0725", "cpuguy83", "crosbymichael", "duglin", "estesp", "icecrime", "jfrazelle", "lk4d4", "mhbauer", "runcom", "tianon", "tibor", "tonistiigi", "unclejack", "vbatts", "vdemeester"]
+        People = ["calavera", "coolljt0725", "cpuguy83", "duglin", "estesp", "icecrime", "jfrazelle", "lk4d4", "mhbauer", "runcom", "tianon", "tibor", "tonistiigi", "unclejack", "vbatts", "vdemeester"]
     [Org.docker-bench-security]
         People = ["diogomonica", "konstruktoid"]
     [Org.docker-py]
