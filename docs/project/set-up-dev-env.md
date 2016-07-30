@@ -255,25 +255,25 @@ example, you'll edit the help for the `attach` subcommand.
     Your location should be different because, at least, your username is
     different.
 
-3. Open the `api/client/attach.go` file.
+3. Open the `api/client/container/attach.go` file.
 
 4. Edit the command's help message.
 
     For example, you can edit this line:
 
-    ```go
-    noStdin := cmd.Bool([]string{"-no-stdin"}, false, "Do not attach STDIN")
-    ```
+	```go
+	flags.BoolVar(&opts.noStdin, "no-stdin", false, "Do not attach STDIN")
+	```
 
     And change it to this:
 
     ```go
-    noStdin := cmd.Bool([]string{"-no-stdin"}, false, "Do not attach STDIN (standard in)")
+	flags.BoolVar(&opts.noStdin, "no-stdin", false, "Do not attach STDIN (standard in)")
     ```
 
-5. Save and close the `api/client/attach.go` file.
+5. Save and close the `api/client/container/attach.go` file.
 
-6. Go to your running development container.
+6. Rebuild your development container with `make shell`
 
 7. Remake the binary and copy it to `usr/bin`
 
@@ -282,17 +282,18 @@ example, you'll edit the help for the `attach` subcommand.
 9. View your change by display the `attach` help.
 
     ```bash
-    root@b0cb4f22715d:/go/src/github.com/docker/docker# docker attach --help
+	root@1db296ffa381:/go/src/github.com/docker/docker# docker attach --help
 
-    Usage:	docker attach [OPTIONS] CONTAINER
+	Usage:	docker attach [OPTIONS] CONTAINER
 
-    Attach to a running container
+	Attach to a running container
 
-    --detach-keys       Override the key sequence for detaching a container
-    --help              Print usage
-    --no-stdin          Do not attach to STDIN (standard in)
-    --sig-proxy=true    Proxy all received signals to the process
-    ```
+	Options:
+    	  --detach-keys string   Override the key sequence for detaching a container
+     	  --help                 Print usage
+     	  --no-stdin             Do not attach STDIN (standard in)
+     	  --sig-proxy            Proxy all received signals to the process (default true)
+	```
 
 You've just done the basic workflow for changing the Engine code base. You made
 your code changes in your feature branch. Then, you updated the binary in your
