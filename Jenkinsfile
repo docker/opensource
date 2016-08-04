@@ -4,5 +4,11 @@ wrappedNode(label: 'linux') {
   stage "checkout"
   checkout scm
 
-  documentationChecker("docs")
+  try {
+    documentationChecker("docs")
+    error message: "This is an error - just in case the docs checking succeds :)"
+  } catch (err) {
+    slackSend channel: '#docs-automation', message: "DOCS: ${err}"
+    throw err
+  }
 }
