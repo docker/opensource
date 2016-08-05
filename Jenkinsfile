@@ -3,6 +3,7 @@ wrappedNode(label: 'docker') {
   stage "checkout"
   checkout scm
 
+  echo "running ${env.BUILD_ID}"
   pr = "${env.BUILD_ID}".substring(3) // remove the "PR-"
 
   try {
