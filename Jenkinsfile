@@ -14,7 +14,7 @@ wrappedNode(label: 'docker') {
   try {
     documentationChecker("docs")
   } catch (err) {
-    slackSend channel: '#docs-automation', message: " ERROR: see pull request ${pr}"
+    slackSend channel: '#docs-automation', message: "ERROR: [PR#${pr}](https://github.com/${org}/${repo}/pull/${pr}) - see jenkins job at ..."
     throw err
   }
 }
