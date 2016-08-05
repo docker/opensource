@@ -7,8 +7,9 @@ wrappedNode(label: 'docker') {
   org = tokens[0]
   repo = tokens[1]
   branch = tokens[2]
-  echo "running ${branch}"
   pr = branch.substring(3) // remove the "PR-"
+  echo "running ${pr}, job ${env.BUILD_ID}"
+  sh "env"
 
   try {
     documentationChecker("docs")
