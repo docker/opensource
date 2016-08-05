@@ -1,14 +1,14 @@
-// Only run on Linux atm
-wrappedNode(label: 'linux') {
+wrappedNode(label: 'docker') {
   deleteDir()
   stage "checkout"
   checkout scm
 
+  pr = "${env.BUILD_ID}".minus("PR-")
+
   try {
     documentationChecker("docs")
-    error message: "This is an error - just in case the docs checking succeds :)"
   } catch (err) {
-    slackSend channel: '#docs-automation', message: "DOCS: ${err}"
+    slackSend channel: '#docs-automation', message: " ERROR: see pull request ${pr}"
     throw err
   }
 }
