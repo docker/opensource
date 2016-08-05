@@ -3,8 +3,12 @@ wrappedNode(label: 'docker') {
   stage "checkout"
   checkout scm
 
-  echo "running ${env.BUILD_ID}"
-  pr = "${env.BUILD_ID}".substring(3) // remove the "PR-"
+  tokens = "${env.JOB_NAME}".tokenize('/')
+  org = tokens[0]
+  repo = tokens[1]
+  branch = tokens[2]
+  echo "running ${branch}"
+  pr = branch.substring(3) // remove the "PR-"
 
   try {
     documentationChecker("docs")
