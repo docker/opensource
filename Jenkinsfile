@@ -3,7 +3,7 @@ wrappedNode(label: 'docker') {
   stage "checkout"
   checkout scm
 
-  pr = "${env.BUILD_ID}".minus("PR-")
+  pr = minus("${env.BUILD_ID}", "PR-")
 
   try {
     documentationChecker("docs")
