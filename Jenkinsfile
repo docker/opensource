@@ -4,17 +4,14 @@ wrappedNode(label: 'docker') {
   checkout scm
 
   tokens = "${env.JOB_NAME}".tokenize('/')
-  org = tokens[0]
-  repo = tokens[1]
-  branch = tokens[2]
-  pr = branch.substring(3) // remove the "PR-"
+  pr = "${CHANGE_URL}"
   echo "running ${pr}, job ${env.BUILD_ID}"
   sh "env"
 
   try {
     documentationChecker("docs")
   } catch (err) {
-    slackSend channel: '#docs-automation', message: "ERROR: [PR#${pr}](https://github.com/${org}/${repo}/pull/${pr}) - see jenkins job at ..."
+    slackSend channel: '#docs-automation', message: "ERROR: <a href='${env.CHANGE_URL}'>PR#${pr}</a> - see [jenkins job console](${BUILD_URL}/console)]"
     throw err
   }
 }
