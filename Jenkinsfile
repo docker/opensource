@@ -11,7 +11,7 @@ wrappedNode(label: 'docker') {
   try {
     documentationChecker("docs")
   } catch (err) {
-    slackSend channel: '#docs-automation', message: "ERROR: <a href='${env.CHANGE_URL}'>PR#${pr}</a> - see [jenkins job console](${env.BUILD_URL}/console)]"
+    slackSend channel: '#docs-automation', message: "ERROR: <${env.CHANGE_URL}'|PR#${pr}> - see [jenkins job console](${env.BUILD_URL}/console)]"
     throw err
   }
 }
