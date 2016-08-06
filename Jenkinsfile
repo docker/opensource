@@ -11,7 +11,7 @@ wrappedNode(label: 'docker') {
   try {
     documentationChecker("docs")
   } catch (err) {
-    slackSend channel: '#docs-automation', message: "ERROR: <${env.CHANGE_URL}'|PR#${pr}> - see <${env.BUILD_URL}/console|the Jenkins console for job ${env.BUILD_ID}>"
+    slackSend channel: '#docs-automation', message: "ERROR: @${env.CHANGE_AUTHOR} - <${env.CHANGE_URL}'|PR#${pr}> : ${env.CHANGE_TITLE}- see <${env.BUILD_URL}/console|the Jenkins console for job ${env.BUILD_ID}>"
     throw err
   }
 }
