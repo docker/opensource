@@ -4,6 +4,9 @@ wrappedNode(label: 'docker') {
   checkout scm
 
   tokens = "${env.JOB_NAME}".tokenize('/')
+  org = tokens[0]
+  repo = tokens[1]
+  branch = tokens[2]
   pr = "${env.CHANGE_ID}"
   echo "running ${pr}, job ${env.BUILD_ID}"
   sh "env"
@@ -11,7 +14,7 @@ wrappedNode(label: 'docker') {
   try {
     documentationChecker("docs")
   } catch (err) {
-    slackSend channel: '#docs-automation', message: "ERROR: @${env.CHANGE_AUTHOR} - <${env.CHANGE_URL}'|PR#${pr}> : ${env.CHANGE_TITLE}- see <${env.BUILD_URL}/console|the Jenkins console for job ${env.BUILD_ID}>"
+    slackSend channel: '#docs-automation', message: "BUILD FAILURE: @${env.CHANGE_AUTHOR} - <${env.CHANGE_URL}|${repo} PR#${pr}> : ${env.CHANGE_TITLE}- see <${env.BUILD_URL}/console|the Jenkins console for job ${env.BUILD_ID}>"
     throw err
   }
 }
