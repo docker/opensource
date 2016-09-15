@@ -31,7 +31,7 @@ be fine".
 
     [Roles."Community Manager"]
 
-    person = "theadactyl"
+    people = ["thajeztah", "vcoisne"]
 
     text = """
 The community manager is responsible for serving the project community, including users,
