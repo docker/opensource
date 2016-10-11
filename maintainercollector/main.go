@@ -48,6 +48,7 @@ var (
 		"go-plugins-helpers",
 		"go-units",
 		"hyperkit",
+		"infrakit",
 		"kitematic",
 		"leadership",
 		"leeroy",
