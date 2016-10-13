@@ -49,6 +49,7 @@ var (
 		"go-units",
 		"hyperkit",
 		"infrakit",
+		"infrakit.aws",
 		"kitematic",
 		"leadership",
 		"leeroy",
