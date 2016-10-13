@@ -339,6 +339,8 @@ or feedback about project operations.
         People = ["avsm", "djs55", "dsheets", "gdevillele", "ijc25", "justincormack", "magnuss", "rneugeba", "samoht"]
     [Org.infrakit]
         People = ["chungers", "wfarner"]
+    [Org."infrakit.aws"]
+        People = ["chungers", "wfarner"]
     [Org.kitematic]
         People = ["elesant", "frenchben", "jeffdm", "mchiang0610"]
     [Org.leadership]
@@ -733,7 +735,7 @@ or feedback about project operations.
         GitHub = "vishh"
     [People.wfarner]
         Name = "Bill Farner"
-        Email = "bill.farner@docker.com"
+        Email = "bill@docker.com"
         GitHub = "wfarner"
     [People.yomimono]
         Name = "Mindy Preston"
