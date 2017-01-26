@@ -49,6 +49,7 @@ type Organization struct {
 	ChiefMaintainer  string `toml:"Chief Maintainer"`
 	CommunityManager string `toml:"Community Manager"`
 	CoreMaintainers  *Org   `toml:"Core maintainers"`
+	Maintainers      *Org   `toml:"Maintainers"`
 	DocsMaintainers  *Org   `toml:"Docs maintainers"`
 	Curators         *Org   `toml:"Curators"`
 }

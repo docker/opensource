@@ -91,13 +91,19 @@ func main() {
 			continue
 		}
 
-		// create the Org object for the project
-		p := &Org{
-			// Repo: fmt.Sprintf("https://github.com/%s/%s", org, project),
-			// TODO: change this to:
-			// People: maintainers.Org["Core maintainers"].People,
-			// once MaintainersDepreciated is removed.
-			People: maintainers.Organization.CoreMaintainers.People,
+		p := &Org{}
+		if maintainers.Organization.Maintainers != nil {
+			p.People = maintainers.Organization.Maintainers.People
+		} else if maintainers.Organization.CoreMaintainers != nil {
+			// create the Org object for the project
+			p.People = maintainers.Organization.CoreMaintainers.People
+			//p := &Org{
+			//	// Repo: fmt.Sprintf("https://github.com/%s/%s", org, project),
+			//	// TODO: change this to:
+			//	// People: maintainers.Org["Core maintainers"].People,
+			//	// once MaintainersDepreciated is removed.
+			//	People: maintainers.Organization.CoreMaintainers.People,
+			//}
 		}
 
 		// lowercase all maintainers nicks for consistency
@@ -157,6 +163,9 @@ func removeDuplicates(slice []string) []string {
 
 func getMaintainers(project string) (maintainers MaintainersDepreciated, err error) {
 	fileUrl := fmt.Sprintf("%s/%s/%s/master/MAINTAINERS", ghRawUri, org, project)
+
+	logrus.Infof("%s: loading MAINTAINERS file from %v", project, fileUrl)
+
 	resp, err := http.Get(fileUrl)
 	if err != nil {
 		return maintainers, fmt.Errorf("%s: %v", project, err)
