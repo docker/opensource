@@ -300,7 +300,7 @@ or feedback about project operations.
 
 [Org]
     [Org.Curators]
-        People = ["aboch", "andrewhsu", "ehazlett", "mgoelzer", "programmerq", "thajeztah", "amitshukla"]
+        People = ["aboch", "alexellis", "andrewhsu", "anonymuse", "chanwit", "ehazlett", "fntlnz", "gianarb", "mgoelzer", "programmerq", "rheinwein", "thajeztah", "amitshukla"]
     [Org."Docs maintainers"]
         People = ["jamtur01", "misty", "sven", "thajeztah", "sfsmithcha"]
     [Org.boot2docker]
@@ -308,7 +308,7 @@ or feedback about project operations.
     [Org.compose]
         People = ["aanand", "bfirsh", "dnephin", "mnowster"]
     [Org.containerd]
-        People = ["crosbymichael", "tonistiigi", "mlaventure"]
+        People = ["crosbymichael", "dqminh", "estesp", "hqhq", "jhowardmsft", "mlaventure", "stevvooe"]
     [Org.datakit]
         People = ["samoht", "talex5"]
     [Org.distribution]
@@ -320,7 +320,7 @@ or feedback about project operations.
     [Org.docker-credential-helpers]
         People = ["aaronlehmann", "calavera", "coolljt0725", "cpuguy83", "crosbymichael", "dnephin", "dongluochen", "duglin", "estesp", "icecrime", "jhowardmsft", "lk4d4", "mavenugo", "mhbauer", "runcom", "stevvooe", "thajeztah", "tianon", "tibor", "tonistiigi", "unclejack", "vdemeester", "vieux"]
     [Org.docker-py]
-        People = ["aanand", "dnephin", "mnowster", "mpetazzoni", "shin-"]
+        People = ["aanand", "bfirsh", "dnephin", "mnowster", "mpetazzoni", "shin-"]
     [Org.dockercraft]
         People = ["aduermael", "davetucker", "gdevillele"]
     [Org.engine-api]
@@ -360,7 +360,7 @@ or feedback about project operations.
     [Org.migrator]
         People = ["mbentley"]
     [Org.notary]
-        People = ["cyli", "diogomonica", "dmcgowan", "endophage", "hukeping", "nathanmccauley", "riyazdf"]
+        People = ["cyli", "diogomonica", "dmcgowan", "endophage", "ecordell", "hukeping", "nathanmccauley", "riyazdf"]
     [Org.spdystream]
         People = ["dmcgowan"]
     [Org.swarm]
@@ -368,7 +368,7 @@ or feedback about project operations.
     [Org.swarm-frontends]
         People = ["amitshukla", "samalba"]
     [Org.swarmkit]
-        People = ["aaronlehmann", "aluzzardi", "amitshukla", "diogomonica", "dongluochen", "lk4d4", "mrjana", "nishanttotla", "stevvooe", "tonistiigi", "vieux"]
+        People = ["aaronlehmann", "aluzzardi", "amitshukla", "cyli", "diogomonica", "dongluochen", "dperny", "lk4d4", "mrjana", "nishanttotla", "stevvooe", "tonistiigi", "vieux", "yongtang"]
     [Org.toolbox]
         People = ["jeffdm", "lisean106", "mchiang0610"]
     [Org."v1.10-migrator"]
@@ -397,6 +397,10 @@ or feedback about project operations.
         Name = "Akihiro Suda"
         Email = "suda.akihiro@lab.ntt.co.jp"
         GitHub = "AkihiroSuda"
+    [People.alexellis]
+        Name = "Alex Ellis"
+        Email = "alexellis2@gmail.com"
+        GitHub = "alexellis"
     [People.allencloud]
         Name = "Allen Sun"
         Email = "allen.sun@daocloud.io"
@@ -413,6 +417,10 @@ or feedback about project operations.
         Name = "Andrew Hsu"
         Email = "andrewhsu@docker.com"
         GitHub = "andrewhsu"
+    [People.anonymuse]
+        Name = "Jesse White"
+        Email = "anonymuse@gmail.com"
+        GitHub = "anonymuse"
     [People.anusha]
         Name = "Anusha Ragunathan"
         Email = "anusha@docker.com"
@@ -423,7 +431,7 @@ or feedback about project operations.
         GitHub = "avsm"
     [People.bfirsh]
         Name = "Ben Firshman"
-        Email = "ben@firshman.co.uk"
+        Email = "b@fir.sh"
         GitHub = "bfirsh"
     [People.calavera]
         Name = "David Calavera"
@@ -493,6 +501,14 @@ or feedback about project operations.
         Name = "Dongluo Chen"
         Email = "dong@docker.com"
         GitHub = "dongluochen"
+    [People.dperny]
+        Name = "Drew Erny"
+        Email = "drew.erny@docker.com"
+        GitHub = "dperny"
+    [People.dqminh]
+        Name = "Daniel, Dao Quang Minh"
+        Email = "dqminh89@gmail.com"
+        GitHub = "dqminh"
     [People.dsheets]
         Name = "David Sheets"
         Email = "dsheets@docker.com"
@@ -501,6 +517,10 @@ or feedback about project operations.
         Name = "Doug Davis"
         Email = "dug@us.ibm.com"
         GitHub = "duglin"
+    [People.ecordell]
+        Name = "Evan Cordell"
+        Email = "evan.cordell@coreos.com"
+        GitHub = "ecordell"
     [People.ehazlett]
         Name = "Evan Hazlett"
         Email = "ejhazlett@gmail.com"
@@ -521,6 +541,10 @@ or feedback about project operations.
         Name = "Phil Estes"
         Email = "estesp@linux.vnet.ibm.com"
         GitHub = "estesp"
+    [People.fntlnz]
+        Name = "Lorenzo Fontana"
+        Email = "fontanalorenz@gmail.com"
+        GitHub = "fntlnz"
     [People.frenchben]
         Name = "Ben French"
         Email = "frenchben@docker.com"
@@ -529,6 +553,14 @@ or feedback about project operations.
         Name = "Gaetan de Villele"
         Email = "gaetan@docker.com"
         GitHub = "gdevillele"
+    [People.gianarb]
+        Name = "Gianluca Arbezzano"
+        Email = "ga@thumpflow.com"
+        GitHub = "gianarb"
+    [People.hqhq]
+        Name = "Qiang Huang"
+        Email = "h.huangqiang@huawei.com"
+        GitHub = "hqhq"
     [People.hukeping]
         Name = "Hu Keping"
         Email = "hukeping@huawei.com"
@@ -653,6 +685,10 @@ or feedback about project operations.
         Name = "Jeff Anderson"
         Email = "jeff@docker.com"
         GitHub = "programmerq"
+    [People.rheinwein]
+        Name = "Laura Frank"
+        Email = "laura@codeship.com"
+        GitHub = "rheinwein"
     [People.richardscothern]
         Name = "Richard Scothern"
         Email = "richard.scothern@gmail.com"
@@ -749,3 +785,7 @@ or feedback about project operations.
         Name = "Mindy Preston"
         Email = "mindy.preston@docker.com"
         GitHub = "yomimono"
+    [People.yongtang]
+        Name = "Yong Tang"
+        Email = "yong.tang.github@outlook.com"
+        GitHub = "yongtang"
