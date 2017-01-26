@@ -44,6 +44,7 @@ var (
 		"engine-api",
 		"go-connections",
 		"go-events",
+		"go-healthcheck",
 		"go-p9p",
 		"go-plugins-helpers",
 		"go-units",
