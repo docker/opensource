@@ -329,6 +329,8 @@ or feedback about project operations.
         People = ["calavera"]
     [Org.go-events]
         People = ["aaronlehmann", "aluzzardi", "lk4d4", "stevvooe"]
+    [Org.go-healthcheck]
+        People = ["diogomonica", "nathanmccauley", "stevvooe"]
     [Org.go-p9p]
         People = ["aduermael", "djs55", "frenchben", "justincormack", "stevvooe"]
     [Org.go-plugins-helpers]
