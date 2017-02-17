@@ -308,13 +308,13 @@ or feedback about project operations.
     [Org.compose]
         People = ["aanand", "bfirsh", "dnephin", "mnowster"]
     [Org.containerd]
-        People = ["crosbymichael", "dqminh", "estesp", "hqhq", "jhowardmsft", "mlaventure", "stevvooe"]
+        People = ["crosbymichael", "dqminh", "dmcgowan", "estesp", "hqhq", "jhowardmsft", "mlaventure", "stevvooe"]
     [Org.datakit]
         People = ["samoht", "talex5"]
     [Org.distribution]
         People = ["aaronlehmann", "dmcgowan", "dmp42", "richardscothern", "shykes", "stevvooe"]
     [Org.docker]
-        People = ["aaronlehmann", "akihirosuda", "aluzzardi", "anusha", "coolljt0725", "cpuguy83", "crosbymichael", "dnephin", "duglin", "estesp", "icecrime", "jhowardmsft", "justincormack", "lk4d4", "mavenugo", "mhbauer", "mlaventure", "mrjana", "runcom", "stevvooe", "tianon", "tibor", "tonistiigi", "unclejack", "vdemeester", "vieux"]
+        People = ["aaronlehmann", "akihirosuda", "aluzzardi", "anusha", "coolljt0725", "cpuguy83", "crosbymichael", "dnephin", "duglin", "estesp", "icecrime", "jhowardmsft", "justincormack", "lk4d4", "mavenugo", "mhbauer", "mlaventure", "mrjana", "runcom", "stevvooe", "tianon", "tibor", "tonistiigi", "unclejack", "vdemeester", "vieux", "yongtang"]
     [Org.docker-bench-security]
         People = ["diogomonica", "konstruktoid"]
     [Org.docker-credential-helpers]
@@ -322,7 +322,7 @@ or feedback about project operations.
     [Org.docker-py]
         People = ["aanand", "bfirsh", "dnephin", "mnowster", "mpetazzoni", "shin-"]
     [Org.dockercraft]
-        People = ["aduermael", "davetucker", "gdevillele"]
+        People = ["aduermael", "dave-tucker", "gdevillele"]
     [Org.engine-api]
         People = ["aaronlehmann", "calavera", "coolljt0725", "cpuguy83", "crosbymichael", "dnephin", "dongluochen", "duglin", "estesp", "icecrime", "jhowardmsft", "lk4d4", "mavenugo", "mhbauer", "runcom", "stevvooe", "thajeztah", "tianon", "tibor", "tonistiigi", "unclejack", "vdemeester", "vieux"]
     [Org.go-connections]
@@ -470,10 +470,6 @@ or feedback about project operations.
     [People.dave-tucker]
         Name = "Dave Tucker"
         Email = "dt@docker.com"
-        GitHub = "dave-tucker"
-    [People.davetucker]
-        Name = "Dave Tucker"
-        Email = "dave.tucker@docker.com"
         GitHub = "dave-tucker"
     [People.dgageot]
         Name = "David Gageot"
