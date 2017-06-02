@@ -35,7 +35,7 @@ var (
 		"boot2docker",
 		"cli",
 		"compose",
-		"containerd",
+		"containerd/containerd",
 		"distribution",
 		"docker-bench-security",
 		"docker-credential-helpers",
