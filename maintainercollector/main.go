@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"sort"
 	"strings"
 
 	"github.com/BurntSushi/toml"
@@ -112,6 +113,7 @@ func main() {
 		for i, n := range p.People {
 			p.People[i] = strings.ToLower(n)
 		}
+		sort.Strings(p.People)
 
 		projectMaintainers.Org[project] = p
 
@@ -160,6 +162,7 @@ func removeDuplicates(slice []string) []string {
 			seens[element] = true
 		}
 	}
+	sort.Strings(uniqs)
 	return uniqs
 }
 
