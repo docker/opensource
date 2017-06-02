@@ -33,11 +33,10 @@ const (
 var (
 	projects = []string{
 		"boot2docker",
+		"cli",
 		"compose",
 		"containerd",
-		"datakit",
 		"distribution",
-		"docker",
 		"docker-bench-security",
 		"docker-credential-helpers",
 		"docker-py",
@@ -49,9 +48,10 @@ var (
 		"go-p9p",
 		"go-plugins-helpers",
 		"go-units",
-		"hyperkit",
 		"infrakit",
 		"infrakit.aws",
+		"infrakit.digitalocean",
+		"infrakit.gcp",
 		"kitematic",
 		"leadership",
 		"leeroy",
@@ -59,8 +59,13 @@ var (
 		"libcompose",
 		"libkv",
 		"libnetwork",
+		"linuxkit/linuxkit",
 		"machine",
 		"migrator",
+		"moby/datakit",
+		"moby/hyperkit",
+		"moby/moby",
+		"moby/vpnkit",
 		"notary",
 		"spdystream",
 		"swarm",
@@ -68,7 +73,6 @@ var (
 		"swarm-frontends",
 		"toolbox",
 		"v1.10-migrator",
-		"vpnkit",
 	}
 )
 
