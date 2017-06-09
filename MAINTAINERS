@@ -338,7 +338,7 @@ or feedback about project operations.
     [Org.go-units]
         People = ["calavera"]
     [Org.hyperkit]
-        People = ["avsm", "djs55", "dsheets", "gdevillele", "ijc25", "justincormack", "magnuss", "rneugeba", "samoht"]
+        People = ["avsm", "djs55", "dsheets", "gdevillele", "ijc", "justincormack", "magnuss", "rn", "samoht"]
     [Org.infrakit]
         People = ["chungers", "kaufers", "ndegory", "yujioshima"]
     [Org."infrakit.aws"]
@@ -362,9 +362,9 @@ or feedback about project operations.
     [Org.libnetwork]
         People = ["aboch", "chenchun", "icecrime", "lk4d4", "mavenugo", "sanimej"]
     [Org.linuxkit]
-        People = ["ijc25", "justincormack", "riyazdf", "rneugeba"]
+        People = ["ijc", "justincormack", "riyazdf", "rn"]
     [Org.machine]
-        People = ["dgageot", "ehazlett", "jeanlaurent", "nathanleclaire"]
+        People = ["dgageot", "ehazlett", "jeanlaurent"]
     [Org.migrator]
         People = ["mbentley"]
     [Org.moby]
@@ -583,10 +583,10 @@ or feedback about project operations.
         Name = "Arnaud Porterie"
         Email = "icecrime@gmail.com"
         GitHub = "icecrime"
-    [People.ijc25]
+    [People.ijc]
         Name = "Ian Campbell"
         Email = "ian.campbell@docker.com"
-        GitHub = "ijc25"
+        GitHub = "ijc"
     [People.jamtur01]
         Name = "James Turnbull"
         Email = "james@lovedthanlost.net"
@@ -691,10 +691,6 @@ or feedback about project operations.
         Name = "Nassim Eddequiouaq"
         Email = "eddequiouaq.nassim@gmail.com"
         GitHub = "n4ss"
-    [People.nathanleclaire]
-        Name = "Nathan LeClaire"
-        Email = "nathan.leclaire@docker.com"
-        GitHub = "nathanleclaire"
     [People.nathanmccauley]
         Name = "Nathan McCauley"
         Email = "nathan.mccauley@docker.com"
@@ -723,10 +719,10 @@ or feedback about project operations.
         Name = "Riyaz Faizullabhoy"
         Email = "riyaz@docker.com"
         GitHub = "riyazdf"
-    [People.rneugeba]
+    [People.rn]
         Name = "Rolf Neugebauer"
         Email = "rolf.neugebauer@docker.com"
-        GitHub = "rneugeba"
+        GitHub = "rn"
     [People.runcom]
         Name = "Antonio Murdaca"
         Email = "runcom@redhat.com"
