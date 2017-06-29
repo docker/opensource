@@ -360,9 +360,9 @@ or feedback about project operations.
     [Org.libkv]
         People = ["aluzzardi", "sanimej", "vieux"]
     [Org.libnetwork]
-        People = ["aboch", "chenchun", "icecrime", "lk4d4", "mavenugo", "sanimej"]
+        People = ["aboch", "chenchun", "fcrisciani", "icecrime", "lk4d4", "mavenugo", "sanimej"]
     [Org.linuxkit]
-        People = ["ijc", "justincormack", "riyazdf", "rn"]
+        People = ["deitch", "ijc", "justincormack", "riyazdf", "rn"]
     [Org.machine]
         People = ["dgageot", "ehazlett", "jeanlaurent"]
     [Org.migrator]
@@ -384,7 +384,7 @@ or feedback about project operations.
     [Org."v1.10-migrator"]
         People = ["tonistiigi"]
     [Org.vpnkit]
-        People = ["avsm", "djs55", "samoht", "yomimono"]
+        People = ["avsm", "djs55", "samoht"]
 
 [People]
     [People.aanand]
@@ -483,6 +483,10 @@ or feedback about project operations.
         Name = "Dave Tucker"
         Email = "dt@docker.com"
         GitHub = "dave-tucker"
+    [People.deitch]
+        Name = "Avi Deitcher"
+        Email = "avi@atomicinc.com"
+        GitHub = "deitch"
     [People.dgageot]
         Name = "David Gageot"
         Email = "david.gageot@docker.com"
@@ -551,6 +555,10 @@ or feedback about project operations.
         Name = "Phil Estes"
         Email = "estesp@linux.vnet.ibm.com"
         GitHub = "estesp"
+    [People.fcrisciani]
+        Name = "Flavio Crisciani"
+        Email = "flavio.crisciani@docker.com"
+        GitHub = "fcrisciani"
     [People.fntlnz]
         Name = "Lorenzo Fontana"
         Email = "fontanalorenz@gmail.com"
@@ -803,10 +811,6 @@ or feedback about project operations.
         Name = "Bill Farner"
         Email = "bill@docker.com"
         GitHub = "wfarner"
-    [People.yomimono]
-        Name = "Mindy Preston"
-        Email = "mindy.preston@docker.com"
-        GitHub = "yomimono"
     [People.yongtang]
         Name = "Yong Tang"
         Email = "yong.tang.github@outlook.com"
