@@ -300,7 +300,7 @@ or feedback about project operations.
 
 [Org]
     [Org.Curators]
-        People = ["aboch", "alexellis", "amitshukla", "andrewhsu", "anonymuse", "chanwit", "ehazlett", "fntlnz", "gianarb", "mgoelzer", "programmerq", "rheinwein", "thajeztah"]
+        People = ["aboch", "alexellis", "amitshukla", "andrewhsu", "anonymuse", "chanwit", "ehazlett", "fntlnz", "gianarb", "mgoelzer", "programmerq", "rheinwein", "ripcurld0", "thajeztah"]
     [Org."Docs maintainers"]
         People = ["misty", "sfsmithcha", "sven", "thajeztah"]
     [Org.boot2docker]
@@ -723,6 +723,10 @@ or feedback about project operations.
         Name = "Richard Scothern"
         Email = "richard.scothern@gmail.com"
         GitHub = "richardscothern"
+    [People.ripcurld0]
+        Name = "Boaz Shuster"
+        Email = "ripcurld.github@gmail.com"
+        GitHub = "ripcurld0"
     [People.riyazdf]
         Name = "Riyaz Faizullabhoy"
         Email = "riyaz@docker.com"
