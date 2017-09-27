@@ -306,11 +306,11 @@ or feedback about project operations.
     [Org.boot2docker]
         People = ["ehazlett", "tianon"]
     [Org.cli]
-        People = ["aaronlehmann", "aluzzardi", "anusha", "cpuguy83", "crosbymichael", "dnephin", "ehazlett", "johnstep", "justincormack", "mavenugo", "mlaventure", "stevvooe", "tibor", "tonistiigi", "vdemeester", "vieux"]
+        People = ["aaronlehmann", "albers", "aluzzardi", "anusha", "cpuguy83", "crosbymichael", "dnephin", "ehazlett", "johnstep", "justincormack", "mavenugo", "mlaventure", "stevvooe", "tibor", "tonistiigi", "vdemeester", "vieux"]
     [Org.compose]
         People = ["aanand", "bfirsh", "dnephin", "mnowster", "shin-"]
     [Org.containerd]
-        People = ["crosbymichael", "dmcgowan", "dqminh", "estesp", "hqhq", "jhowardmsft", "mlaventure", "stevvooe"]
+        People = ["akihirosuda", "crosbymichael", "dmcgowan", "dqminh", "estesp", "hqhq", "jhowardmsft", "mlaventure", "stevvooe"]
     [Org.datakit]
         People = ["samoht", "talex5"]
     [Org.distribution]
@@ -340,7 +340,7 @@ or feedback about project operations.
     [Org.hyperkit]
         People = ["avsm", "djs55", "dsheets", "gdevillele", "ijc", "justincormack", "magnuss", "rn", "samoht"]
     [Org.infrakit]
-        People = ["chungers", "kaufers", "ndegory", "yujioshima"]
+        People = ["chungers", "kaufers", "ndegory", "thebsdbox", "yujioshima"]
     [Org."infrakit.aws"]
         People = ["chungers", "wfarner"]
     [Org."infrakit.digitalocean"]
@@ -364,7 +364,7 @@ or feedback about project operations.
     [Org.linuxkit]
         People = ["deitch", "ijc", "justincormack", "riyazdf", "rn"]
     [Org.machine]
-        People = ["dgageot", "ehazlett", "jeanlaurent"]
+        People = ["dgageot", "jeanlaurent"]
     [Org.migrator]
         People = ["mbentley"]
     [Org.moby]
@@ -779,6 +779,10 @@ or feedback about project operations.
         Name = "Sebastiaan van Stijn"
         Email = "github@gone.nl"
         GitHub = "thaJeztah"
+    [People.thebsdbox]
+        Name = "Dan Finneran"
+        Email = "daniel.finneran@gmail.com"
+        GitHub = "thebsdbox"
     [People.tianon]
         Name = "Tianon Gravi"
         Email = "admwiggin@gmail.com"
