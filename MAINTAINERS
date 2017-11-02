@@ -340,7 +340,7 @@ or feedback about project operations.
     [Org.hyperkit]
         People = ["avsm", "djs55", "dsheets", "gdevillele", "ijc", "justincormack", "magnuss", "rn", "samoht"]
     [Org.infrakit]
-        People = ["chungers", "kaufers", "ndegory", "thebsdbox", "yujioshima"]
+        People = ["chungers", "frenchben", "kaufers", "ndegory", "thebsdbox", "yujioshima"]
     [Org."infrakit.aws"]
         People = ["chungers", "wfarner"]
     [Org."infrakit.digitalocean"]
@@ -364,13 +364,13 @@ or feedback about project operations.
     [Org.linuxkit]
         People = ["deitch", "ijc", "justincormack", "riyazdf", "rn"]
     [Org.machine]
-        People = ["dgageot", "jeanlaurent"]
+        People = ["dgageot", "jeanlaurent", "shin-"]
     [Org.migrator]
         People = ["mbentley"]
     [Org.moby]
         People = ["aaronlehmann", "akihirosuda", "albers", "aluzzardi", "anusha", "coolljt0725", "cpuguy83", "crosbymichael", "dnephin", "duglin", "ehazlett", "estesp", "icecrime", "jhowardmsft", "johnstep", "justincormack", "lk4d4", "mavenugo", "mhbauer", "mlaventure", "runcom", "stevvooe", "tianon", "tibor", "tonistiigi", "unclejack", "vdemeester", "vieux", "yongtang"]
     [Org.notary]
-        People = ["cyli", "diogomonica", "dmcgowan", "ecordell", "endophage", "hukeping", "nathanmccauley", "riyazdf"]
+        People = ["cyli", "diogomonica", "ecordell", "endophage", "hukeping", "nathanmccauley", "riyazdf"]
     [Org.spdystream]
         People = ["dmcgowan"]
     [Org.swarm]
@@ -601,7 +601,7 @@ or feedback about project operations.
         GitHub = "jamtur01"
     [People.jeanlaurent]
         Name = "Jean-Laurent de Morlhon"
-        Email = "jeanlaurent@docker.com>"
+        Email = "jeanlaurent@docker.com"
         GitHub = "jeanlaurent"
     [People.jeffdm]
         Name = "Jeff Morgan"
