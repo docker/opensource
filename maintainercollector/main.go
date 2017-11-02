@@ -66,11 +66,11 @@ var (
 		"moby/hyperkit",
 		"moby/moby",
 		"moby/vpnkit",
-		"notary",
 		"spdystream",
 		"swarm",
 		"swarmkit",
 		"swarm-frontends",
+		"theupdateframework/notary",
 		"toolbox",
 		"v1.10-migrator",
 	}
