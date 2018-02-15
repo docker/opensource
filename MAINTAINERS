@@ -341,12 +341,6 @@ or feedback about project operations.
         People = ["avsm", "djs55", "dsheets", "gdevillele", "ijc", "justincormack", "magnuss", "rn", "samoht"]
     [Org.infrakit]
         People = ["chungers", "frenchben", "kaufers", "ndegory", "thebsdbox", "yujioshima"]
-    [Org."infrakit.aws"]
-        People = ["chungers", "wfarner"]
-    [Org."infrakit.digitalocean"]
-        People = ["vdemeester"]
-    [Org."infrakit.gcp"]
-        People = ["chungers", "wfarner"]
     [Org.kitematic]
         People = ["elesant", "frenchben", "jeffdm", "mchiang0610"]
     [Org.leadership]
@@ -843,10 +837,6 @@ or feedback about project operations.
         Name = "Vishnu Kannan"
         Email = "vishnuk@google.com"
         GitHub = "vishh"
-    [People.wfarner]
-        Name = "Bill Farner"
-        Email = "bill@docker.com"
-        GitHub = "wfarner"
     [People.yanxuean]
         Name = "Xuean Yan"
         Email = "yan.xuean@zte.com.cn"
