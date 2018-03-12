@@ -308,7 +308,7 @@ or feedback about project operations.
     [Org.cli]
         People = ["aaronlehmann", "albers", "cpuguy83", "dnephin", "justincormack", "stevvooe", "tibor", "tonistiigi", "vdemeester", "vieux"]
     [Org.compose]
-        People = ["aanand", "bfirsh", "dnephin", "mnowster", "shin-"]
+        People = ["dnephin", "mefyl", "mnottale", "shin-"]
     [Org.containerd]
         People = ["abhi", "akihirosuda", "crosbymichael", "dchen1107", "dmcgowan", "dqminh", "estesp", "hqhq", "jhowardmsft", "mikebrow", "mlaventure", "random-liu", "stevvooe", "yujuhong"]
     [Org.datakit]
@@ -673,6 +673,10 @@ or feedback about project operations.
         Name = "Michael Chiang"
         Email = "mchiang@docker.com"
         GitHub = "mchiang0610"
+    [People.mefyl]
+        Name = "Quentin Hocquet"
+        Email = "quentin.hocquet@docker.com"
+        GitHub = "mefyl"
     [People.mgoelzer]
         Name = "Mike Goelzer"
         Email = "mike.goelzer@docker.com"
@@ -697,6 +701,10 @@ or feedback about project operations.
         Name = "Kenfe-Mickaël Laventure"
         Email = "mickael.laventure@gmail.com"
         GitHub = "mlaventure"
+    [People.mnottale]
+        Name = "Matthieu Nottale"
+        Email = "matthieu.nottale@docker.com"
+        GitHub = "mnottale"
     [People.mnowster]
         Name = "Mazz Mosley"
         Email = "mazz@houseofmnowster.com"
@@ -751,7 +759,7 @@ or feedback about project operations.
         GitHub = "ripcurld0"
     [People.riyazdf]
         Name = "Riyaz Faizullabhoy"
-        Email = "riyaz@docker.com"
+        Email = "riyazdf@berkeley.edu"
         GitHub = "riyazdf"
     [People.rn]
         Name = "Rolf Neugebauer"
