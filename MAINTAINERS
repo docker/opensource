@@ -300,7 +300,7 @@ or feedback about project operations.
 
 [Org]
     [Org.Curators]
-        People = ["aboch", "alexellis", "amitshukla", "andrewhsu", "anonymuse", "chanwit", "ehazlett", "fntlnz", "gianarb", "mgoelzer", "programmerq", "rheinwein", "ripcurld0", "thajeztah"]
+        People = ["alexellis", "amitshukla", "andrewhsu", "anonymuse", "chanwit", "fntlnz", "gianarb", "programmerq", "rheinwein", "ripcurld", "thajeztah"]
     [Org."Docs maintainers"]
         People = ["misty", "sfsmithcha", "sven", "thajeztah"]
     [Org.boot2docker]
@@ -308,7 +308,7 @@ or feedback about project operations.
     [Org.cli]
         People = ["aaronlehmann", "albers", "cpuguy83", "dnephin", "justincormack", "stevvooe", "tibor", "tonistiigi", "vdemeester", "vieux"]
     [Org.compose]
-        People = ["dnephin", "mefyl", "mnottale", "shin-"]
+        People = ["mefyl", "mnottale", "shin-"]
     [Org.containerd]
         People = ["abhi", "akihirosuda", "crosbymichael", "dchen1107", "dmcgowan", "dqminh", "estesp", "hqhq", "jhowardmsft", "mikebrow", "mlaventure", "random-liu", "stevvooe", "yujuhong"]
     [Org.datakit]
@@ -677,10 +677,6 @@ or feedback about project operations.
         Name = "Quentin Hocquet"
         Email = "quentin.hocquet@docker.com"
         GitHub = "mefyl"
-    [People.mgoelzer]
-        Name = "Mike Goelzer"
-        Email = "mike.goelzer@docker.com"
-        GitHub = "mgoelzer"
     [People.mhbauer]
         Name = "Morgan Bauer"
         Email = "mbauer@us.ibm.com"
@@ -753,10 +749,10 @@ or feedback about project operations.
         Name = "Richard Scothern"
         Email = "richard.scothern@gmail.com"
         GitHub = "richardscothern"
-    [People.ripcurld0]
+    [People.ripcurld]
         Name = "Boaz Shuster"
         Email = "ripcurld.github@gmail.com"
-        GitHub = "ripcurld0"
+        GitHub = "ripcurld"
     [People.riyazdf]
         Name = "Riyaz Faizullabhoy"
         Email = "riyazdf@berkeley.edu"
