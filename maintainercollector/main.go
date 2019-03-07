@@ -35,6 +35,7 @@ var (
 		"boot2docker",
 		"cli",
 		"compose",
+		"compose-on-kubernetes",
 		"containerd/containerd",
 		"distribution",
 		"docker-bench-security",
