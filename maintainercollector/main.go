@@ -42,7 +42,6 @@ var (
 		"docker-credential-helpers",
 		"docker-py",
 		"dockercraft",
-		"engine-api",
 		"go-connections",
 		"go-events",
 		"go-healthcheck",
