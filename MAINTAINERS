@@ -323,8 +323,6 @@ or feedback about project operations.
         People = ["shin-"]
     [Org.dockercraft]
         People = ["aduermael", "dave-tucker", "gdevillele"]
-    [Org.engine-api]
-        People = ["aaronlehmann", "calavera", "coolljt0725", "cpuguy83", "crosbymichael", "dnephin", "dongluochen", "duglin", "estesp", "icecrime", "jhowardmsft", "lk4d4", "mavenugo", "mhbauer", "runcom", "stevvooe", "thajeztah", "tianon", "tibor", "tonistiigi", "unclejack", "vdemeester", "vieux"]
     [Org.go-connections]
         People = ["akihirosuda", "dnephin", "thajeztah", "vdemeester"]
     [Org.go-events]
