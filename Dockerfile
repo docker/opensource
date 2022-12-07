@@ -1,14 +1,13 @@
 FROM alpine
-MAINTAINER Jessica Frazelle <jess@docker.com>
 
 ENV PATH /go/bin:/usr/local/go/bin:$PATH
 ENV GOPATH /go
 
-RUN	apk update && apk add \
-	ca-certificates \
-	&& rm -rf /var/cache/apk/*
+RUN apk add --no-cache ca-certificates
 
 COPY . /go/src/github.com/docker/opensource
+
+ENV GO111MODULE=off
 
 RUN buildDeps=' \
 		go \
@@ -21,7 +20,8 @@ RUN buildDeps=' \
 	&& apk update \
 	&& apk add $buildDeps \
 	&& cd /go/src/github.com/docker/opensource \
-	&& go get -d -v github.com/docker/opensource/maintainercollector \
+	&& go get github.com/BurntSushi/toml \
+	&& go get github.com/sirupsen/logrus \
 	&& go generate ./maintainercollector \
 	&& go build -o /usr/bin/maintainercollector ./maintainercollector \
 	&& apk del $buildDeps \

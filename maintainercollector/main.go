@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/BurntSushi/toml"
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 const (
@@ -32,44 +32,27 @@ const (
 
 var (
 	projects = []string{
-		"boot2docker",
 		"cli",
 		"compose",
-		"compose-on-kubernetes",
-		"containerd/containerd",
-		"distribution",
 		"docker-bench-security",
 		"docker-credential-helpers",
 		"docker-py",
 		"dockercraft",
 		"go-connections",
 		"go-events",
-		"go-healthcheck",
-		"go-p9p",
 		"go-plugins-helpers",
 		"go-units",
-		"infrakit",
-		"kitematic",
-		"leadership",
-		"leeroy",
 		"libchan",
-		"libcompose",
 		"libkv",
-		"libnetwork",
 		"linuxkit/linuxkit",
-		"machine",
-		"migrator",
+		"moby/libnetwork",
 		"moby/datakit",
 		"moby/hyperkit",
 		"moby/moby",
 		"moby/vpnkit",
+		"moby/swarmkit",
+		"notaryproject/notary",
 		"spdystream",
-		"swarm",
-		"swarmkit",
-		"swarm-frontends",
-		"theupdateframework/notary",
-		"toolbox",
-		"v1.10-migrator",
 	}
 )
 
